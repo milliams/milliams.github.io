@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>	pytest mini-workshop</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+<div id="content">
+	<h1>pytest mini-workshop</h1>
+	<p>Welcome to the mini-workshop on pytest as part of CW18.</p>
+	<!--<h2>Setup</h2>-->
+	<p>
+		You have two options for how to set run the examples as part of this workshop.
+		You can either run the code locally on your laptop or connect to the web-based terminal.
+	</p>
+	<h2>On your laptop</h2>
+	<p>
+		To run the workshop on your laptop you'll need:
+		<ul>
+			<li>Python ≥ 3.3</li>
+			<li>Git</li>
+			<li>The ability to run a command-line</li>
+			<li>A text editor</li>
+		</ul>
+		This is likely easy if you are running Linux or MacOS.
+	</p>
+	<p>
+		Open a terminal and run the following:
+		<div class="terminal">
+			git clone https://github.com/milliams/pytest_miniworkshop.git<br/>
+			cd pytest_miniworkshop<br/>
+			python3 -m venv venv<br/>
+			source venv/bin/activate<br/>
+			pip install -r requirements.txt
+		</div>
+		at which point you are ready to start running <span class="terminal">pytest</span>. Try it!
+	</p>
+	<p></p>
+	<h2>Web-based terminal</h2>
+	<p>If you don't have easy access to a command-line or a Python installation on your laptop then try connecting to the web-based terminal service.</p>
+	<p>
+		Point your browser to <a href="http://pytestworkshop1.westeurope.cloudapp.azure.com/">pytestworkshop1.westeurope.cloudapp.azure.com</a>.
+		To find out what username and password you need, go to the <a href="https://docs.google.com/spreadsheets/d/1dHUvMy7WHTsyLgM53g8_IX91OotL0AZ74T0Evhmjz8A/edit?usp=sharing">Google spreadsheet</a>, choose an unclaimed username and put your name next to it.
+		I'll give the passwords out in-person.
+	</p>
+	<p>
+		Once you are logged in, do the following to make sure you are in a working environment:
+		<div class="terminal">
+			cd pytest_miniworkshop</br>
+			source venv/bin/activate</br>
+			pytest
+		</div>
+		You are then ready to go!
+	</p>
+</div>
+</body>
+</html>
